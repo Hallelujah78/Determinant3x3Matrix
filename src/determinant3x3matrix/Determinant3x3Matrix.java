@@ -92,10 +92,11 @@ public class Determinant3x3Matrix {
     public static void main(String[] args) {
         int matrix[][] = {{1, 2, 3}, {4, 1, 5}, {6, 0, 2}};
         int anotherMatrix[][] = {{2, -3, 1}, {5, -1, 2}, {3, 2, -1}};
+        int yetAnotherMatrix[][] = {{5, -1, 3}, {7, 2, 4}, {6, 0, 1}};
 
         calc3x3Determinant(anotherMatrix);
         calc3x3Determinant(matrix);
-
+        calc3x3Determinant(yetAnotherMatrix);
 
         /* steps to find determinant of 3x3
         // flattening the matrix would make this easier to iterate?
